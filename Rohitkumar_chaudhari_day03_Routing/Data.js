@@ -1,0 +1,7 @@
+const header = {header1:'DCX Developer Directory',header2:'Find A Developer NOW'};
+const navbar = ['HomeAbout', 'UsBrowse', 'DevelopersRegister', 'As DeveloperContact Us'];
+const Links = ['SEO','PHP','Ajax','jQuery','Web design','Web Programming','Content Creation','Internet Marketing','XHTML Templates'];
+const main_section =[{main_heading:'Welcome to DCX Developer Directory!'},{ heading:'Who Are We?', description:'We are a fictional website and service that list top web developers around the world. Search and browse fictional web developers on our website absolutley FREE!'},{heading:'What Skills Do Our Developers Have?',description:'Our listed fictional web developers skill ranges from Graphic design with Photoshop, Illustrator and Fireworks to markup languages like HTML5, XHTML and XML to programming languages such as Javascript, PHP, Python and ASP'}];
+const footer =[{heading:'Latest DCX Developers'}, {heading:'Megan Jennings',Location:'Boston USA',Skills:'HTML/CSS, PHP, ROR',Availability:'Full-Time'},{heading:'Megan Jennings',Location:'Boston USA',Skills:'HTML/CSS, PHP, ROR',Availability:'Full-Time'},{heading:'Megan Jennings',Location:'Boston USA',Skills:'HTML/CSS, PHP, ROR',Availability:'Full-Time'}]
+
+module.exports ={header,navbar,Links,main_section,footer};
