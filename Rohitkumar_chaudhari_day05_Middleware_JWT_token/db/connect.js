@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connectionString = "mongodb://localhost:27017/facebook";
-
+mongoose.set("strictQuery", false);
 mongoose
   .connect(connectionString, {
     useNewUrlParser: true,

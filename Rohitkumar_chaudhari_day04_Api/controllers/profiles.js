@@ -13,7 +13,7 @@ const AddProfile = async (req, res) => {
 const OneProfile = async (req, res) => {
   const { id } = req.params;
   const profile = await Profile.findById({ _id: id });
-  res.json(profile);
+  res.status(200).send(profile);
 };
 
 module.exports = {
